@@ -133,9 +133,3 @@ class Deck:
         print(f"Deck of {len(self.deck)} cards")
 
 
-deck = Deck()
-dealt_cards = deck.deal(5)
-for card in dealt_cards:
-    print(f"The dealt cards are {card}")
-for card in deck.deck:
-    print(card)
