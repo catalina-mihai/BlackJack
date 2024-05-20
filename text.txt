@@ -1,0 +1,81 @@
+############### Thomas' and Catalina's Blackjack Project #####################
+
+
+############### Our Blackjack House Rules #####################
+
+## We play with just one deck of 52 cards.
+## There are no jokers.
+## The Jack/Queen/King all count as 10.
+## The the Ace can count as 11 or 1. -> The first ACE dealt is of value 11 and subsequent ACEs of value 1.
+##                                   -> Should the score of a player exceed 21 then the value of the ACE is changed to 1.
+## The cards in the list have equal probability of being drawn to begin with.
+## But cards are removed from the deck as they are drawn.
+
+## NOTE to the lead developer (aka Thomas :) ). When I am referring to 'dealer' I mean a virtual player for which the computer takes decisions.
+# I also refer to the 'computer' and by computer I mean the program/mechanism and all code behind. So not to be confused with the dealer.
+## Let me give you an example. When the 'computer' deals 2 cards to the player called 'dealer' it is the computer/mechanism that peaks
+## into the cards dealt and checks automatically for blackjack. So the 'dealer-player' is blind to the card that is hidden.
+
+##################### USER STORIES ##############
+
+## nouns: the dealer, player, the computer, card, deck, score, hand, game
+## verbs: start new game, end game, check score, check blackjack, check gameover, deal new card, print results
+
+## As a player I want to draw more cards. So that my score gets closer to 21.
+## As a player I want the highest score.
+## As a player I want to keep the cards I have. So that I don't risk getting over 21 and so that I see the opponents cards
+## As a player I want to restart the game.
+## As a player I don't want to play another game.
+## As a player I want to
+
+## As a dealer I want to draw more cards if my score is under 17.
+## As a dealer I want to keep the cards I have if my score is over 17.
+## As a dealer
+
+## As the computer ask for user input: 'Do you want to play a game of Blackjack?'
+## As the computer deal randomly two cards to each player and extract them from the deck.
+## As the computer add up the card values. So that you check the score.
+## As the computer check both hands for game over.
+## As the computer check both hands for blackjack.
+## As the computer conceal one of the dealer's cards.
+## As the computer print the cards dealt and current score.
+## As the computer ask the player 'Type Y to get another card, type N to keep the cards you have.'
+## As the computer compare scores. So that you determine winner.
+## As the computer print the results of the game.
+## As the computer ask player for input. So that you end the game or clear console for new game.
+
+##################### STEPS #####################
+
+
+## initialising steps:
+## create a DECK and shuffle it
+## after each step the score needs to update and be printed. Check for BlackJack or Game Over
+
+## STEP 1: DEAL CARDS
+## Deal 2 cards to player
+## Deal 2 cards to dealer. One card is hidden but computer peaks for the next step where we check for Blackjack.
+
+## STEP 2: BLACKJACK?
+## If dealer was dealt a 10 card or ACE then computer checks for BLACKJACK. If BlackJAck -> check for TIE
+## If player has BLACKJACK -> check for TIE
+## (If the summed value of the cards is 21 then it's a BLACKJACK)
+##Then reveal dealers cards too and check if it is a TIE (if both have blackjack)
+
+## STEP 3. GAME OVER?
+## A player is BUST or in other words the GAME is OVER when the score exceeds 21 points
+## We check the player's score. If sum over 21 then we check for any ACEs.
+## If there is an ACE we change the value of it from 11 to 1.
+## If the sum of the player's score is still over 21 then the player loses the game regardless of the dealer's hand
+
+## STEP 4. PLAYER'S TURN
+## Ask for user input.
+
+## STEP 5. DEALER'S TURN
+## Once the user is done, it's time to let the dealer play. The dealer should keep drawing cards as long as it has a score less than 17.
+
+
+## STEP 6. WIN, LOSS OR TIE?
+
+## STEP 7. PLAY AGAIN?
+## We ask the user if they want to restart the game. If they answer yes, clear the console and start a new game of blackjack and show the logo from art.py.
+
