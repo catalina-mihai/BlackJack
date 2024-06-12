@@ -30,16 +30,14 @@ class Deck:
         if len(self.deck) > 1:
             rand.shuffle(self.deck)
 
-    def deal(self, number):
-        """A method that deals a number of cards"""
+    def deal(self):
+        """A method that deals one card and pops it from the deck"""
         try:
-            dealt_cards = []
-            for _ in range(number):
-                dealt_cards.append(self.deck.pop())
+            dealtCard = self.deck.pop()
         except IndexError:
-            return print("Not enough cards in the deck to deal the requested number of cards")
+            return print("Not enough cards in the deck to deal the card")
         else:
-            return dealt_cards
+            return dealtCard
     def cards_count(self):
         print(f"Deck of {len(self.deck)} cards")
 
