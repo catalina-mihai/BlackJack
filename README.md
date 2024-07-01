@@ -12,7 +12,7 @@
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
 <p align="justify"> 
-  For those of you not familiar with Blackjack, or 21 it's a casino card where players aim to beat the dealer by getting a hand value close to 21 without exceeding it. Number cards are worth their face value, face cards 10 points, and Aces 1 or 11 points
+  For those of you not familiar with Blackjack, or 21 it's a casino card where your aim as a player is to beat the dealer by getting a hand value close to 21 without exceeding it. Number cards are worth their face value, face cards 10 points, and Aces 1 or 11 points
 
 </p>
 
@@ -22,11 +22,10 @@
 <h2 id="overview"> :cloud: Overview</h2>
 
 <p align="justify"> 
-  The house rules for this Blackjack project are:
 
   ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- PROJECT FILES DESCRIPTION -->
+<!--   The house rules for this Blackjack project are: -->
 <h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
 
 <ul>
