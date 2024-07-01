@@ -80,11 +80,8 @@ To clone the repository and run it locally, follow these steps:
 <!-- MORE INFO -->
 <h2 id="scenario1"> :small_orange_diamond: Scenario 1: Finding a Fixed Food Dot using Depth First Search</h2>
 
-<p>I have implemented the depth-first search (DFS) algorithm in the depthFirstSearch function in <code>search.py</code>.</p>
-<p>TThis Python script implements a text-based Blackjack game with several classes:
+<p>I   </p>
 
-
-:</p>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
