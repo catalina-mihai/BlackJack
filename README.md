@@ -59,8 +59,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- GETTING STARTED -->
-<h2 id="getting-started"> :book: Getting Started</h2>
+## ⚙️ Installation
 
 <p>You are able to start the game by typing the following commands in the command line:</p>
 <pre><code>$ python main.py</code></pre>
