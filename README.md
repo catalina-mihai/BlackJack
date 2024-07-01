@@ -24,6 +24,5 @@ Logic: Manages the overall Blackjack game logic.
 'checkWinner' function determines the winner based on the player's and dealer's hand values.
 https://github.com/tommydrengen/BlackJack/blob/main/card.py#L1-L2
 
-https://github.com/tommydrengen/BlackJack/blob/main/card.py#L1-L5
-
+https://github.com/EpicNesh26/Python-Blackjack-game/blob/a97b11e177df968b8663d8e78bea44c3b622821e/Method2.py#L6-L25
 The main part of the script creates a Logic object and calls its start method to start the game. The start method prompts the user to say whether they would like to play or not, then plays each game by dealing two cards to both the player and the dealer, allowing the player to hit or stand, and determining the winner based on the final hand values.
