@@ -10,7 +10,7 @@
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
 <p align="justify"> 
-  For those of you not familiar with Blackjack, or 21 it's a casino card where your aim as a player is to beat the dealer by getting a hand value close to 21 without exceeding it. Number cards are worth their face value, face cards 10 points, and Aces 1 or 11 points
+  For those of you not familiar with Blackjack, or 21 it's a casino card where your aim as a player is to beat the dealer by getting a hand value close to 21 without exceeding it. Number cards are worth their face value, face cards 10 points, and Aces 1 or 11 points.
 
 </p>
 
@@ -80,7 +80,7 @@ To clone the repository and run it locally, follow these steps:
 <!-- MORE INFO -->
 <h2 id="scenario1"> :small_orange_diamond: MORE INFO </h2>
 
-<p>I   </p>
+<p>   </p>
 
 
 
