@@ -78,7 +78,7 @@ To clone the repository and run it locally, follow these steps:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- MORE INFO -->
-<h2 id="scenario1"> :small_orange_diamond: Scenario 1: Finding a Fixed Food Dot using Depth First Search</h2>
+<h2 id="scenario1"> :small_orange_diamond: MORE INFO </h2>
 
 <p>I   </p>
 
