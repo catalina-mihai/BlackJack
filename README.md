@@ -22,8 +22,8 @@ Deck: Represents a deck of cards, which can be shuffled and dealt.
 Hand: Represents a hand of cards, managing dealt cards and calculating their value.
 Logic: Manages the overall Blackjack game logic.
 'checkWinner' function determines the winner based on the player's and dealer's hand values.
-https://github.com/tommydrengen/BlackJack/blob/main/card.py
+https://github.com/tommydrengen/BlackJack/blob/main/card.py#L1-L2
 
-https://github.com/tommydrengen/BlackJack/blob/main/card.pyL1-L5
+https://github.com/tommydrengen/BlackJack/blob/main/card.py#L1-L5
 
 The main part of the script creates a Logic object and calls its start method to start the game. The start method prompts the user to say whether they would like to play or not, then plays each game by dealing two cards to both the player and the dealer, allowing the player to hit or stand, and determining the winner based on the final hand values.
