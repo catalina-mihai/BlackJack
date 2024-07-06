@@ -72,7 +72,7 @@ To clone the repository and run it locally, follow these steps:
 'https://github.com/tommydrengen/BlackJack.git'
 4) Once the repository is cloned, navigate into the repository directory using the cd command. <br>
 5) You can now run the script locally. Depending on the programming language, you might need to have the necessary runtime or dependencies installed on your system. <br>
-6) Execute the script using the appropriate command or interpreter for the specific language. For example, if it's a Python script, you can run it using the python command followed by the script name:
+6) Execute the script using the appropriate command or interpreter for the specific language. For example, if it's a Python script, you can run it using the python command followed by the script name.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
