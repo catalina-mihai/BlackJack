@@ -62,7 +62,7 @@
 <pre><code>$ python main.py</code></pre>
 
 <p>You can see the list of all options and their default values via:</p>
-<pre><code>$ python main.py -h</code></pre>\
+<pre><code>$ python main.py -h</code></pre>
 
 
 To clone the repository and run it locally, follow these steps:
