@@ -29,7 +29,7 @@
 <ul>
   <li><b>Only one deck is used, of a total of 52 cards. </b> 
   <li><b>There are no jokers</b> 
-  <li><b>The Jack/Queen/King all count as 10.</b> - 
+  <li><b>The Jack/Queen/King all count as 10.</b>  
   <li><b>The the Ace can count as 11 or 1.</b> 
   <li><b>Cards are removed from the deck as they are drawn.</b> 
   <li><b>The cards have equal probability of being drawn.</b> 
@@ -46,12 +46,11 @@
 <h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
 
 <ul>
-  <li><b>logic.py</b> - Manages the overall Blackjack game logic.</li>
-  <li><b>playerHand.py</b> - Represents the player's hand of cards, managing dealt cards and calculating their value.</li>
-  <li><b>dealerHand.py</b> - Represents the dealer's hand of cards, managing dealt cards and calculating their value.</li>
+  <li><b>game.py</b> - Manages the overall Blackjack game logic.</li>
+  <li><b>hand.py</b> - Represents the hand of cards, managing dealt cards and calculating their value.</li>
   <li><b>deck.py</b> - Represents a deck of cards, which can be shuffled and dealt.</li>
   <li><b>card.py</b> - Represents a playing card with a suit and rank.</li>
-  <li><b>main.py</b> - The main part of the script creates a Logic object and calls its start method to start the game. The start method prompts the user to say whether they would like to play or not, then plays each game by dealing two cards to both the player and the dealer, allowing the player to hit or stand, and determining the winner based on the final hand values.</li>
+  <li><b>main.py</b> - The main part of the script creates a Game object and calls its play method to start the game. The play method prompts the user to say whether they would like to play or not, then plays each game by dealing two cards to both the player and the dealer, allowing the player to hit or stand, and determining the winner based on the final hand values.</li>
 
 </ul>
 
@@ -63,7 +62,7 @@
 <pre><code>$ python main.py</code></pre>
 
 <p>You can see the list of all options and their default values via:</p>
-<pre><code>$ python main.py -h</code></pre>
+<pre><code>$ python main.py -h</code></pre>\
 
 
 To clone the repository and run it locally, follow these steps:
