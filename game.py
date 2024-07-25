@@ -15,9 +15,17 @@ class Game:
                 dealer_hand.add_card(deck.deal(1))
 
             print()
-            print("*" * 30)
-            print(f"BLACKJACK")
-            print("*" * 30)
+            print("*" * 50)
+            print(r"""  
+ _     _              _      _             _     
+| |   | |            | |    (_)           | |    
+| |__ | | _____  ____| |  _  _ _____  ____| |  _ 
+|  _ \| |(____ |/ ___) |_/ )| (____ |/ ___) |_/ )
+| |_) ) |/ ___ ( (___|  _ ( | / ___ ( (___|  _ ( 
+|____/ \_)_____|\____)_| \_)| \_____|\____)_| \_)
+                          (__/                                    
+                          """)
+            print("*" * 50)
             player_hand.display()
             dealer_hand.display()
 
