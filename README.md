@@ -10,7 +10,7 @@
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
 <p align="justify"> 
-  For those of you not familiar with Blackjack, or 21 it's a casino card where your aim as a player is to beat the dealer by getting a hand value close to 21 without exceeding it. Number cards are worth their face value, face cards 10 points, and Aces 1 or 11 points. The player can choose to take additional cards ("Hit") or keep their hand as it is ("Stand"). If the player goes over 21, they lose the game. If the dealer's hand is closer to 21 than the player's, the dealer wins. If the player's hand is closer to 21 than the dealer's, the player wins.
+  For those of you not familiar with Blackjack, or 21 it's a casino card game where your aim as a player is to beat the dealer by getting a hand value close to 21 without exceeding it. Number cards are worth their face value, face cards 10 points, and Aces 1 or 11 points. The player can choose to take additional cards ("Hit") or keep their hand as it is ("Stand"). If the player goes over 21, they lose the game. If the dealer's hand is closer to 21 than the player's, the dealer wins. If the player's hand is closer to 21 than the dealer's, the player wins.
 
 </p>
 
